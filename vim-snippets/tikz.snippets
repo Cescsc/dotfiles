@@ -1,0 +1,22 @@
+priority -50
+
+#################
+
+snippet tk; "environment" bA
+\begin{tikzpicture}
+	$0
+\end{tikzpicture}
+endsnippet
+
+################
+# Macrostructures
+################
+
+snippet tcircle "macrostructures" 
+\begin{tikzpicture}
+  \draw (0,0) circle (2cm);
+  \draw (-2,0) arc (180:360:2 and 0.6);
+  \draw[dashed] (2,0) arc (0:180:2 and 0.6);
+  \fill[fill=black] (0,0) circle (1pt);
+\end{tikzpicture}
+endsnippet
